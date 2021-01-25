@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1F1F1F;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  padding: 15px;
+  background-color: #000000;
+}
+header i {
+  font-size: 50px;
+  color: #1DD05D;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.disc-box {
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: red;
+}
+.disc-box h2 {
+  font-family: "Noto Sans SC", sans-serif;
+  padding-top: 5px;
+}
+.disc-box h3 {
+  font-family: "Roboto", sans-serif;
+  padding-top: 5px;
+}
+.disc-box h4 {
+  font-family: "Yusei Magic", sans-serif;
+  padding-top: 5px;
+}
+.disc-box .cover {
+  margin: 0 auto;
+  height: 60%;
+  width: 95%;
+  padding-top: 10px;
+  background-color: blue;
+}
